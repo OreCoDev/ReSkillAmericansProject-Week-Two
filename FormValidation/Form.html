@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" name="fname" id="fname" required>
+        <br><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br><br>
+        <textarea name="comment" required>Leave a message?</textarea>
+        <br><br><br>
+
+        <label for="priorty">How Important?</label>
+        <select name="priorty" id="priority"  required>
+            <option value="Most">Most Important</option>
+            <option value="Less">Less Important</option>
+            <option value="Least">Least Important</option>
+
+        </select>
+ 
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
